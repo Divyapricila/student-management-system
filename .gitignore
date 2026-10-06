@@ -1,0 +1,41 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# Maven / Java / Spring Boot build artifacts
+target/
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.mvn/
+
+# Node / Frontend build artifacts and dependencies
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+dist-ssr/
+*.local
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Database & temporary files
+*.sqlite
+*.tmp
